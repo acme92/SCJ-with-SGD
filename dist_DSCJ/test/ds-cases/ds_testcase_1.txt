@@ -1,0 +1,27 @@
+#First genome should be the ancestor.
+#Hence it should be trivial, only one copy of the gene in the entire genome.
+
+#Name of the ancestral genome
+Genome A
+
+#Chromosomes - one per line
+#Here, the ancestor has 3 chromosomes and 8 gene families {a,b,c,d,e,f,g,h}.
+A_chr1 a -b c )
+A_chr2 -d -e f |
+A_chr3 g h |
+
+
+
+
+#Second genome should be the descendant.
+
+#Name of the descendant genome
+Genome D
+
+#Chromosomes - one per line
+#Here, the descendant has 4 chromosomes and the same set of gene families {a,b,c,d,e,f,g,h}.
+D_chr1 a -b -b b |
+D_chr2 b -f e d e d -c )
+D_chr3 d d |
+D_chr4 g h g h )
+

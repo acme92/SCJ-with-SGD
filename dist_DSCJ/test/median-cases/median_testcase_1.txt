@@ -1,0 +1,32 @@
+#Name of the first genome
+Genome D1
+
+#Chromosomes - one per line
+#Here, the genome has 3 chrom3somes and 10 gene families {a,b,c,d,e,f,g,h,i,j}.
+D1_chr1 a -b c |
+D1_chr2 -d -e f )
+D1_chr3 g h i j )
+
+
+
+#Name of the second genome
+Genome D2
+
+#Chromosomes - one per line
+#Here, the genome has 4 chromosomes and the same set of gene families {a,b,c,d,e,f,g,h,i,j}.
+D2_chr1 a -b -b b )
+D2_chr2 b f c d d e d -c )
+D2_chr3 g h g )
+D2_chr4 i j i j |
+
+#Name of the third genome
+Genome D3
+
+#Chromosomes - one per line
+#Here, the genome has 4 chromosomes and the same set of gene families {a,b,c,d,e,f,g,h,i,j}.
+D3_chr1 c -d e f |
+D3_chr2 e d b -a )
+D3_chr3 a f c b )
+D3_chr4 -g -h -j -i |
+
+
