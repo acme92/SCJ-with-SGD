@@ -16,7 +16,7 @@ The code is composed of a set of Python scripts. It requires the following to be
 
 ### Usage
 Use the following command to run the script:
-python SPP_main.py <geneorders> <orthology> <adjacencies> <alpha> <outputfolder>
+python SPP_main.py geneorders orthology adjacencies alpha outputfolder
   
 The input files should have the following format.
 1. Any line that is a comment should start with a '#'. 
