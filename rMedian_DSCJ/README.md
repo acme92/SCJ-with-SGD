@@ -1,4 +1,4 @@
-## RMedian_DSCJ: the rooted median problem under the Single Cut or Join model with Tandem Duplications and Floating Duplications 
+## rMedian_DSCJ: the rooted median problem under the Single Cut or Join model with Tandem Duplications and Floating Duplications 
 
 Aniket Mane, Manuel Lafond, Pedro Feijao, Cedric Chauve  
 Department of Mathematics, Simon Fraser University
@@ -20,6 +20,29 @@ Use the following command to run the script:
 python RMedian_main.py tree geneorders orthology outputfolder
   
 The input files should have the following format.
-1. Any line that is a comment should start with a '#'. 
+1. Any line that is a comment should start with a '#'.
+2. The tree file should contain the details of the species tree. Each line should have the species and the parents of the species, in that order, separated by a tab ("\t").
+3. The geneorders file should contain the gene orders of the known genomes (an ancestor A and k descendant genomes D1, ..., Dk). Each line  should be tab-separated and should contain the details of one gene in the genome namely the species name, scaffold/chromosome index, gene name and orientation (+/-).
+4. All genes from the same (species, scaffold) combination should appear in subsequent lines, maintaining the order from the scaffold in which they feature. 
+5. The orthology file should contain the details of the orthology relations. Each line should have exactly one relation, presenting the ancestor species name, descendant species name, ancestor gene name, descendant gene name and gene family name all separated by tabs.
+
 
 Example:
+1. GeneOrders:
+#Species Scaffold Gene Orientation
+A	1	a1	+
+A	1	b1	+
+A	1	c1	+
+D2	1	b7	-
+D2	1	a4	+
+D2	1	c5	+
+D2	2	b8	+
+D2	2	a5	+
+D2	2	b9	-
+
+2. Orthology:
+#Ancestor_species_id, Descendant_species_id, Ancestor_gene_name, Descendant_gene_name, Gene_tree
+A	M	b1	b3	b
+A	M	c1	c2	c
+M	D1	a2	a3	a
+M	D2	a2	a4	a
