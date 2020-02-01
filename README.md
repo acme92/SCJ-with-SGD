@@ -24,14 +24,14 @@ The code is composed of a set of Python scripts. It requires the following to be
 
 ### Usage
 
-Use the following command to run the script:
+Use the following command to run the script: <br>
 
 ./DSCJ.sh dist -s/-m/-d inputfile outputfile <br>
 OR <br>
-bash ./DSCJ.sh dist -s/-m/-d inputfile outputfile 
+bash ./DSCJ.sh dist -s/-m/-d inputfile outputfile <br>
 
-Use -d for computing the dSCJTDFD distance between the two input genomes
-    -s for computing a parsimonious dSCJTDFD scenario between the two input genomes
+Use -d for computing the dSCJTDFD distance between the two input genomes <br>
+    -s for computing a parsimonious dSCJTDFD scenario between the two input genomes <br>
     -m for computing a parsimonious dSCJTDFD median of k genomes
     
 The input file should have the following format.
@@ -44,19 +44,14 @@ The input file should have the following format.
 7. For -d and -s, the input file should contain exactly two genomes, both having the same set of gene families.
 8. For -m, the input file should have at least two genomes and all genomes should have the same set of gene families.
 
-Example:
-Genome 1:
-Chr1_name a -b c |
-Chr2_name -d e f g )
+Example: <br>
+Genome 1: <br>
+Chr1_name a -b c | <br>
+Chr2_name -d e f g ) <br>
 
-Genome 2:
-Chr1_name a -b c d )
-Chr2_name e -f g |
-
-### Examples
-The directory test contains a small example. The resuls files have been obtained by the commands
-python src/DSCJ.py -s test/input test/output_scenario
-python src/DSCJ.py -d test/input test/output_distance
+Genome 2: <br>
+Chr1_name a -b c d ) <br>
+Chr2_name e -f g | <br>
 
 ###Output file format
 Every implementation (-d/-s/-m) of DSCJ.py yields two files - a log file and an output file.
@@ -110,22 +105,22 @@ The input files should have the following format.
 5. The orthology file should contain the details of the orthology relations. Each line should have exactly one relation, presenting the ancestor species name, descendant species name, ancestor gene name, descendant gene name and gene family name all separated by tabs.
 
 
-Example:
-1. GeneOrders:
-#Species Scaffold Gene Orientation
-A	1	a1	+
-A	1	b1	+
-A	1	c1	+
-D2	1	b7	-
-D2	1	a4	+
-D2	1	c5	+
-D2	2	b8	+
-D2	2	a5	+
-D2	2	b9	-
+Example: <br>
+1. GeneOrders: <br>
+#Species Scaffold Gene Orientation <br> 
+A	1	a1	+ <br>
+A	1	b1	+ <br>
+A	1	c1	+ <br>
+D2	1	b7	- <br>
+D2	1	a4	+ <br>
+D2	1	c5	+ <br>
+D2	2	b8	+ <br>
+D2	2	a5	+ <br>
+D2	2	b9	- <br>
 
-2. Orthology:
-#Ancestor_species_id, Descendant_species_id, Ancestor_gene_name, Descendant_gene_name, Gene_tree
-A	M	b1	b3	b
-A	M	c1	c2	c
-M	D1	a2	a3	a
-M	D2	a2	a4	a
+2. Orthology: <br>
+#Ancestor_species_id Descendant_species_id Ancestor_gene_name Descendant_gene_name Gene_tree <br>
+A	M	b1	b3	b <br>
+A	M	c1	c2	c <br>
+M	D1	a2	a3	a <br>
+M	D2	a2	a4	a <br>
