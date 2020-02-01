@@ -1,0 +1,32 @@
+Unchosen adjacencies in first solution: 
+(('n2@663|9', (1, 1195), 't'), ('n2@635|9', (1, 1194), 'h'))
+(('n2@870|4', (1, 1317), 'h'), ('n2@808|4', (1, 1316), 't'))
+(('n2@499|8', (1, 762), 'h'), ('n2@498|8', (1, 761), 'h'))
+(('n2@807|8', (1, 1315), 'h'), ('n2@808|4', (1, 1316), 'h'))
+(('n2@575|5', (1, 1039), 't'), ('n2@576|5', (1, 1038), 't'))
+(('n2@499|8', (1, 762), 't'), ('n2@500|8', (1, 763), 'h'))
+
+Comparison with actual median:
+Adjacencies in actual median: 1554
+Number of candidate adjacencies: 1546
+
+Cuts: Adjacencies in ILP median but not in actual median
+Joins: Adjacencies in actual median but not in ILP median
+
+Index	Cuts	Joins	Total Distance
+0	0	14	14
+
+Overall candidate adjacencies common to 2 genomes: 187
+Overall candidate adjacencies common to 3 genomes: 1359
+
+Candidate adjacencies not chosen in solution 0: 
+
+(('n2@870|4', (1, 1317), 'h'), ('n2@808|4', (1, 1316), 't'))
+(('n2@499|8', (1, 762), 'h'), ('n2@498|8', (1, 761), 'h'))
+(('n2@499|8', (1, 762), 't'), ('n2@500|8', (1, 763), 'h'))
+(('n2@663|9', (1, 1195), 't'), ('n2@635|9', (1, 1194), 'h'))
+(('n2@807|8', (1, 1315), 'h'), ('n2@808|4', (1, 1316), 'h'))
+(('n2@575|5', (1, 1039), 't'), ('n2@576|5', (1, 1038), 't'))
+
+Adjacencies common to 2 genomes: 181
+Adjacencies common to 3 genomes: 1359

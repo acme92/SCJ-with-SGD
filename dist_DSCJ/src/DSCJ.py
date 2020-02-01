@@ -19,6 +19,7 @@ from sys import argv
 import random
 import networkx as nx
 import re
+import os
 
 
 
@@ -956,9 +957,13 @@ if len(argv) < 4:                                                           #Tak
     exit(1)
 
 inputfilename = argv[2]
-outputfilename = argv[3]
-outputfile  = open(outputfilename+'.out', "w")
-logfile = open(outputfilename+'.log', "w")
+outputfilepath = argv[3]
+dirname = outputfilepath.rsplit('/',1)[0]
+filename = outputfilepath.rsplit('/',1)[1]
+if not os.path.exists(dirname):
+    os.makedirs(dirname)
+outputfile  = open(outputfilepath+'.out', "w")
+logfile = open(outputfilepath+'.log', "w")
 
 if argv[1] == '-d':
     distance(inputfilename, outputfile, logfile)

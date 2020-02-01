@@ -1,0 +1,250 @@
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 10:45:04 2020
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 10:46:29 2020
+
+Academic license - for non-commercial use only
+Changed value of parameter PoolSolutions to 100000
+   Prev: 10  Min: 1  Max: 2000000000  Default: 10
+Changed value of parameter PoolGap to 0.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter PoolSearchMode to 2
+   Prev: 0  Min: 0  Max: 2  Default: 0
+Optimize a model with 38420 rows, 21518 columns and 55203 nonzeros
+Variable types: 0 continuous, 21518 integer (16902 binary)
+Coefficient statistics:
+  Matrix range     [2e-01, 1e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-01, 1e+00]
+Found heuristic solution: objective 88.0000000
+Presolve removed 38362 rows and 19943 columns
+Presolve time: 0.02s
+Presolved: 58 rows, 1575 columns, 174 nonzeros
+Variable types: 0 continuous, 1575 integer (1575 binary)
+
+Root relaxation: objective 4.222000e+03, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    4222.0000000 4222.00000  0.00%     -    0s
+Optimal solution found at node 0 - now completing solution pool...
+     0     0          -    0      4222.00000 4222.00000  0.00%     -    0s
+     0     0          -    0      4222.00000 4222.00000  0.00%     -    0s
+     0     2          -    0      4222.00000 4222.00000  0.00%     -    0s
+
+Explored 3093 nodes (0 simplex iterations) in 0.33 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 4222 
+No other solutions better than -1e+100
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.222000000000e+03, best bound 4.222000000000e+03, gap 0.0000%
+Parameter SolutionNumber unchanged
+   Value: 0  Min: 0  Max: 2000000000  Default: 0
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 11:09:39 2020
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 11:28:52 2020
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 11:29:26 2020
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 11:30:24 2020
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 11:32:42 2020
+
+Academic license - for non-commercial use only
+Changed value of parameter PoolSolutions to 100000
+   Prev: 10  Min: 1  Max: 2000000000  Default: 10
+Changed value of parameter PoolGap to 0.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter PoolSearchMode to 2
+   Prev: 0  Min: 0  Max: 2  Default: 0
+Optimize a model with 86 rows, 49 columns and 124 nonzeros
+Variable types: 0 continuous, 49 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 1e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.0000000
+Presolve removed 85 rows and 45 columns
+Presolve time: 0.00s
+Presolved: 1 rows, 4 columns, 3 nonzeros
+Variable types: 0 continuous, 4 integer (4 binary)
+
+Root relaxation: objective 2.000000e+00, 1 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       2.0000000    2.00000  0.00%     -    0s
+Optimal solution found at node 0 - now completing solution pool...
+     0     0          -    0         2.00000    2.00000  0.00%     -    0s
+     0     0          -    0         2.00000    2.00000  0.00%     -    0s
+     0     2          -    0         2.00000    2.00000  0.00%     -    0s
+
+Explored 9 nodes (2 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 2 2 
+No other solutions better than -1e+100
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+Parameter SolutionNumber unchanged
+   Value: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter SolutionNumber to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 13:51:42 2020
+
+Academic license - for non-commercial use only
+Changed value of parameter PoolSolutions to 100000
+   Prev: 10  Min: 1  Max: 2000000000  Default: 10
+Changed value of parameter PoolGap to 0.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter PoolSearchMode to 2
+   Prev: 0  Min: 0  Max: 2  Default: 0
+Optimize a model with 86 rows, 49 columns and 124 nonzeros
+Variable types: 0 continuous, 49 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 1e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.0000000
+Presolve removed 85 rows and 45 columns
+Presolve time: 0.00s
+Presolved: 1 rows, 4 columns, 3 nonzeros
+Variable types: 0 continuous, 4 integer (4 binary)
+
+Root relaxation: objective 2.000000e+00, 1 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       2.0000000    2.00000  0.00%     -    0s
+Optimal solution found at node 0 - now completing solution pool...
+     0     0          -    0         2.00000    2.00000  0.00%     -    0s
+     0     0          -    0         2.00000    2.00000  0.00%     -    0s
+     0     2          -    0         2.00000    2.00000  0.00%     -    0s
+
+Explored 9 nodes (2 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 2 2 
+No other solutions better than -1e+100
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+Parameter SolutionNumber unchanged
+   Value: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter SolutionNumber to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 13:53:17 2020
+
+Academic license - for non-commercial use only
+Changed value of parameter PoolSolutions to 100000
+   Prev: 10  Min: 1  Max: 2000000000  Default: 10
+Changed value of parameter PoolGap to 0.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter PoolSearchMode to 2
+   Prev: 0  Min: 0  Max: 2  Default: 0
+Optimize a model with 86 rows, 49 columns and 124 nonzeros
+Variable types: 0 continuous, 49 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 1e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.0000000
+Presolve removed 85 rows and 45 columns
+Presolve time: 0.00s
+Presolved: 1 rows, 4 columns, 3 nonzeros
+Variable types: 0 continuous, 4 integer (4 binary)
+
+Root relaxation: objective 2.000000e+00, 1 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       2.0000000    2.00000  0.00%     -    0s
+Optimal solution found at node 0 - now completing solution pool...
+     0     0          -    0         2.00000    2.00000  0.00%     -    0s
+     0     0          -    0         2.00000    2.00000  0.00%     -    0s
+     0     2          -    0         2.00000    2.00000  0.00%     -    0s
+
+Explored 9 nodes (2 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 2 2 
+No other solutions better than -1e+100
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+Parameter SolutionNumber unchanged
+   Value: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter SolutionNumber to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 13:53:22 2020
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (linux64, Python) logging started Sat Feb  1 13:54:09 2020
+
+Academic license - for non-commercial use only
+Changed value of parameter PoolSolutions to 100000
+   Prev: 10  Min: 1  Max: 2000000000  Default: 10
+Changed value of parameter PoolGap to 0.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter PoolSearchMode to 2
+   Prev: 0  Min: 0  Max: 2  Default: 0
+Optimize a model with 38420 rows, 21518 columns and 55203 nonzeros
+Variable types: 0 continuous, 21518 integer (16902 binary)
+Coefficient statistics:
+  Matrix range     [2e-01, 1e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-01, 1e+00]
+Found heuristic solution: objective 88.0000000
+Presolve removed 38362 rows and 19943 columns
+Presolve time: 0.02s
+Presolved: 58 rows, 1575 columns, 174 nonzeros
+Variable types: 0 continuous, 1575 integer (1575 binary)
+
+Root relaxation: objective 4.222000e+03, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    4222.0000000 4222.00000  0.00%     -    0s
+Optimal solution found at node 0 - now completing solution pool...
+     0     0          -    0      4222.00000 4222.00000  0.00%     -    0s
+     0     0          -    0      4222.00000 4222.00000  0.00%     -    0s
+     0     2          -    0      4222.00000 4222.00000  0.00%     -    0s
+
+Explored 3093 nodes (0 simplex iterations) in 0.25 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 4222 
+No other solutions better than -1e+100
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.222000000000e+03, best bound 4.222000000000e+03, gap 0.0000%
+Parameter SolutionNumber unchanged
+   Value: 0  Min: 0  Max: 2000000000  Default: 0

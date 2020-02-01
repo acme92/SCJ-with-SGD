@@ -1,0 +1,29 @@
+Unchosen adjacencies in first solution: 
+(('c2', (1, 1), 't'), ('b3', (1, 2), 'h'))
+
+Comparison with actual median:
+Adjacencies in actual median: 4
+Number of candidate adjacencies: 3
+
+Cuts: Adjacencies in ILP median but not in actual median
+Joins: Adjacencies in actual median but not in ILP median
+
+Index	Cuts	Joins	Total Distance
+0	1	1	2
+1	1	2	3
+
+Overall candidate adjacencies common to 2 genomes: 3
+Overall candidate adjacencies common to 3 genomes: 0
+
+Candidate adjacencies not chosen in solution 0: 
+
+(('c2', (1, 1), 't'), ('b3', (1, 2), 'h'))
+
+Adjacencies common to 2 genomes: 2
+Adjacencies common to 3 genomes: 0
+Candidate adjacencies not chosen in solution 1: 
+
+(('b2', (1, 0), 'h'), ('c2', (1, 1), 't'))
+
+Adjacencies common to 2 genomes: 2
+Adjacencies common to 3 genomes: 0

@@ -1,0 +1,4 @@
+#Node	Parent
+n4	n2
+n3	n2
+n2	Root

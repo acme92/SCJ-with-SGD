@@ -1,0 +1,8 @@
+Multiplicity	1
+Actual_adjs	1554
+Candidate_adjs	1546
+Overall candidate adjacencies common to 2 genomes	187
+Overall candidate adjacencies common to 3 genomes	1359
+ILP_adjs	1540
+Precision	1.0
+Recall	0.990990990991

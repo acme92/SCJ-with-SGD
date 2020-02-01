@@ -1,4 +1,11 @@
 __author__ = 'amane'
+__email__ = 'amane@sfu.ca'
+
+"""
+RMedian_main.py implements the algorithm mentioned in the paper "The Rooted SCJ Median with Single Gene Duplications".
+    Given an ancestor genome and a set of descendant genomes having duplicate genes, the code computes a median
+	genome M having duplicate genes with the specified gene content.
+"""
 
 from gurobipy import *
 from sys import argv
@@ -14,7 +21,6 @@ import RMedian_geneorder
 #A: OBTAINING AND STORING INPUT
 #---------------------------------------
 input_folder = argv[1]
-
 #---------------------------------------
 #1. Getting species tree
 tree_file = os.path.join(input_folder,argv[2])
@@ -58,6 +64,8 @@ for species in relevant_species:
 root = rev_tree_dict[median]
 
 output_folder = argv[5]
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
 
 logfile1 = open(os.path.join(output_folder,'all_adjacencies.log'), "w")
 logfile2 = open(os.path.join(output_folder,'observed_dups.log'), "w")
@@ -113,6 +121,7 @@ def ch_adj_exists(adj, tree_dict, ortho_reln, cont_dict, adj_set):
 	count = {}
 
 	for species in tree_dict[median]:
+		#print(median, species, ortho_reln[(median, species)])
 		count[species] = 0
 		gch_list1 = ortho_reln[(median, species)][g1]
 		gch_list2 = ortho_reln[(median, species)][g2]
@@ -547,7 +556,7 @@ for i in soln_dict:
 			max_diff[1] = j
 			max_diff[2] = diff
 #print(' ')			
-print(max_diff)
+#print(max_diff)
 
 solution_set = set()
 soln_ext_dict = {}
@@ -695,9 +704,9 @@ threes = {}
 #print("Overall candidate adjacencies common to 2 genomes: ", total_twos)
 #print("Overall candidate adjacencies common to 3 genomes: ", total_threes)
 output_file.write("\nOverall candidate adjacencies common to 2 genomes: " + str(total_twos))
-stats_file.write("Cand_twos\t"+str(total_twos)+"\n")
+stats_file.write("Overall candidate adjacencies common to 2 genomes\t"+str(total_twos)+"\n")
 output_file.write("\nOverall candidate adjacencies common to 3 genomes: " + str(total_threes) + "\n")
-stats_file.write("Cand_threes\t"+str(total_threes)+"\n")
+stats_file.write("Overall candidate adjacencies common to 3 genomes\t"+str(total_threes)+"\n")
 
 
 total_adjs = 0
@@ -725,12 +734,12 @@ for i in soln_dict:
 avg_adjs = total_adjs/nSolutions
 stats_file.write("ILP_adjs\t"+str(avg_adjs)+"\n")
 true_adjs = avg_adjs - avg_cuts
-precision = float(true_adjs)/float(avg_adjs)
-actual_adjs = len(cont_dict[median])
+precision = float(true_adjs)/float(avg_adjs)	
+actual_adjs = len(cont_dict[median])	#Number of adjacencies in actual median
 recall = float(true_adjs)/float(actual_adjs)
 print("recall: ", recall)
 print("true_adjs: ", true_adjs)
-print("actual_adjs: ", actual_adjs)
+print("actual_adjs: ", actual_adjs) 
 
 stats_file.write("Precision\t"+str(precision)+"\n")
 stats_file.write("Recall\t"+str(recall)+"\n")
