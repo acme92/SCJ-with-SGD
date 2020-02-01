@@ -83,12 +83,12 @@ School of Computing Science, Simon Fraser University
 Contact: amane@sfu.ca
 
 ### Overview
-RMedian_DSCJ is a program that computes the rooted median of a given instance under the SCJTDFD model. It uses an Integer Linear Program (ILP) framework, described in (link to paper).
+rMedian_DSCJ is a program that computes the rooted median of a given instance under the SCJTDFD model. It uses an Integer Linear Program (ILP) framework, described in the paper "The Rooted SCJ Median with Single Gene Duplications", published in the proceedings of [RECOMB-CG 2018] (https://recombcg2018.usherbrooke.ca/), Lecture Notes in Computer Science, volume 11183, Springer (DOI: 10.1007/978-3-030-00834-5).
 An instance of the rooted median problem involves an ancestor A and k descendant genomes D1, ..., Dk. Given these genomes, it is desired to compute a median genome M of the (k+1) genomes.
 
 ### Requirements
 The code is composed of a set of Python scripts. It requires the following to be available:
-* python (3)
+* python (2.7+)
 * Gurobi optimization solver (version 7.5.2 or higher), which is available at: http://www.gurobi.com/downloads/download-center
 
 ### Usage
