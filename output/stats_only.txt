@@ -1,8 +1,0 @@
-Multiplicity	2
-Actual_adjs	4
-Candidate_adjs	3
-Overall candidate adjacencies common to 2 genomes	3
-Overall candidate adjacencies common to 3 genomes	0
-ILP_adjs	2
-Precision	0.5
-Recall	0.25

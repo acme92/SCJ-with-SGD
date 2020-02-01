@@ -39,14 +39,14 @@ The input file should have the following format.
 7. For -d and -s, the input file should contain exactly two genomes, both having the same set of gene families.
 8. For -m, the input file should have at least two genomes and all genomes should have the same set of gene families.
 
-Example:<br/>
-Genome 1:<br/>
-Chr1_name a -b c |<br/>
-Chr2_name -d e f g )<br/>
+Example:
+Genome 1:
+Chr1_name a -b c |
+Chr2_name -d e f g )
 
-Genome 2:<br/>
-Chr1_name a -b c d )<br/>
-Chr2_name e -f g |<br/>
+Genome 2:
+Chr1_name a -b c d )
+Chr2_name e -f g |
 
 ### Examples
 The directory test contains a small example. The resuls files have been obtained by the commands

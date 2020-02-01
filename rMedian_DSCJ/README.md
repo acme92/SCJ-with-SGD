@@ -28,21 +28,21 @@ The input files should have the following format.
 
 
 Example:
-1. GeneOrders:<br/>
-#Species Scaffold Gene Orientation<br/>
-A	1	a1	+<br/>
-A	1	b1	+<br/>
-A	1	c1	+<br/>
-D2	1	b7	-<br/>
-D2	1	a4	+<br/>
-D2	1	c5	+<br/>
-D2	2	b8	+<br/>
-D2	2	a5	+<br/>
-D2	2	b9	-<br/>
+1. GeneOrders:
+#Species Scaffold Gene Orientation
+A	1	a1	+
+A	1	b1	+
+A	1	c1	+
+D2	1	b7	-
+D2	1	a4	+
+D2	1	c5	+
+D2	2	b8	+
+D2	2	a5	+
+D2	2	b9	-
 
 2. Orthology:
-#Ancestor_species_id Descendant_species_id Ancestor_gene_name Descendant_gene_name Gene_tree<br/>
-A	M	b1	b3	b<br/>
-A	M	c1	c2	c<br/>
-M	D1	a2	a3	a<br/>
-M	D2	a2	a4	a<br/>
+#Ancestor_species_id, Descendant_species_id, Ancestor_gene_name, Descendant_gene_name, Gene_tree
+A	M	b1	b3	b
+A	M	c1	c2	c
+M	D1	a2	a3	a
+M	D2	a2	a4	a
