@@ -1,5 +1,5 @@
 # SCJ-with-SGD
-The directed distance, unrooted median and the rooted median problems under the SCJTDFD model
+The directed distance, directed median and the rooted median problems under the SCJTDFD model
 
 ## dist_DSCJ: the directed Single Cut or Join distance with Tandem Duplications and Floating Duplications
 Pedro Feijao, Aniket Mane, Cedric Chauve  
